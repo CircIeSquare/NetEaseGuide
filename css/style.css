@@ -1,0 +1,64 @@
+*{margin:0;padding:0;}
+body{overflow:hidden;}
+.page{width:100%;height:100%;overflow:hidden;position:absolute;}
+.page1,.page11{background:url(../images/pag1_bg.png) no-repeat center;background-size:cover;}
+.page img{position:absolute;}
+.page1 #page1-img1{width:18.93%;top:45.38%;left:32.23%;}
+.page1 #page1-img2{width:18.93%;top:46.96%;left:49.62%;}
+.page1 #page1-img3{width:59.61%;top:53.66%;left:22.81%;}
+.page1 #page1-img4{width:65.1%;top:71.34%;left:18.25%;}
+.page1 #page1-img5{width:32.81%;top:77.46%;left:34.18%;}
+.page1 #page1-img6{width:60.09%;top:84.03%;left:20%;}
+
+.page .page-goTop{width:11.56%;bottom:2.88%;left:44.68%;opacity:0;animation:goTop 2s linear infinite;}
+@keyframes goTop{
+	0%{opacity:0;bottom:2.88%;}
+	20%{opacity:0.5;bottom:3.88%;}
+	40%{opacity:1;bottom:4.88%;}
+	60%{opacity:0;bottom:5.88%;}
+	80%{opacity:0;bottom:3.88%;}
+	100%{opacity:0;bottom:2.88%;}
+}
+.hide{display:none;}
+
+.page2{background:url(../images/pag2_img.png) no-repeat top center;background-size:contain;}
+.page3{background:url(../images/pag3_img.png) no-repeat top center;background-size:contain;}
+.page4{background:url(../images/pag4_img.png) no-repeat top center;background-size:contain;}
+.page5{background:url(../images/pag5_img.png) no-repeat top center;background-size:contain;}
+.page6{background:url(../images/pag6_img.png) no-repeat top center;background-size:contain;}
+.page7{background:url(../images/pag7_img.png) no-repeat top center;background-size:contain;}
+.page8{background:url(../images/pag8_img.png) no-repeat top center;background-size:contain;}
+.page9{background:url(../images/pag9_img.png) no-repeat top center;background-size:contain;}
+.page10{background:url(../images/pag10_img.png) no-repeat top center;background-size:contain;}
+.page11 .modal{width:100%;height:100%;position:absolute;top:0;left:0;background:rgba(255,255,255,0.5);}
+
+.page2 #page2-img1,.page3 #page3-img1,.page4 #page4-img1,.page5 #page5-img1,.page6 #page6-img1,.page7 #page7-img1,.page8 #page8-img1,.page9 #page9-img1,.page10 #page10-img1
+{width:53.05%;top:73.07%;right:5.62%;}
+.page2 #page2-img2,.page3 #page3-img2,.page4 #page4-img2,.page5 #page5-img2,.page6 #page6-img2,.page7 #page7-img2,.page8 #page8-img2,.page9 #page9-img2,.page10 #page10-img2
+{width:42.56%;top:83.65%;right:8.1%;}
+.page2 #page2-img3,.page3 #page3-img3,.page4 #page4-img3,.page5 #page5-img3,.page6 #page6-img3,.page7 #page7-img3,.page8 #page8-img3,.page9 #page9-img3,.page10 #page10-img3
+{width:29.57%;top:82.69%;left:7.8%;}
+.page2 #page2-img4,.page3 #page3-img4,.page4 #page4-img4,.page5 #page5-img4,.page6 #page6-img4,.page7 #page7-img4,.page8 #page8-img4,.page9 #page9-img4,.page10 #page10-img4
+{width:48.04%;bottom:4.42%;right:8.1%;}
+
+.page3 #page3-img1{top:70.07%;}
+.page3 #page3-img2{top:top:80.65%;}
+.page3 #page3-img4,.page4 #page4-img4{bottom:3.42%;}
+.page6 #page6-img4{bottom:5.42%;}
+.page7 #page7-img1,.page9 #page9-img1,.page10 #page10-img1{top:70.07%;}
+.page7 #page7-img2{top:80.65%;}
+.page8 #page8-img1{top:71.07%;}
+.page8 #page8-img2,.page10 #page10-img2{top:81.65%;}
+.page9 #page9-img2{width:16.9%;top:80.65%;}
+
+.page11 #page11-img1{width:11.73%;top:24.23%;left:37.18%;}
+.page11 #page11-img2{width:13.48%;top:25.23%;left:48.75%;}
+.page11 #page11-img3{width:36.36%;top:29.84%;left:31.625%;}
+.page11 #page11-img4{width:48.79%;top:40.8%;left:25.625%;}
+.page11 #page11-img5{width:24.63%;top:46.19%;left:37.81%;}
+.page11 #page11-img6{width:45.69%;top:50.38%;left:28.75%;}
+.page11 #page11-img7{width:60.84%;top:57.3%;left:19.68%;}
+
+#player{position:absolute;z-index:10;width:24px;height:24px;border-radius:50%;top:3.46%;right:5.6%;cursor:pointer;}
+.music_pause{background:url(../images/music_pause.png) no-repeat;}
+.music_play{background:url(../images/music_play.png) no-repeat;}
