@@ -61,4 +61,12 @@ body{overflow:hidden;}
 
 #player{position:absolute;z-index:10;width:24px;height:24px;border-radius:50%;top:3.46%;right:5.6%;cursor:pointer;}
 .music_pause{background:url(../images/music_pause.png) no-repeat;}
-.music_play{background:url(../images/music_play.png) no-repeat;}
+.music_play{background:url(../images/music_play.png) no-repeat;animation:run 1s linear infinite;}
+@keyframes run{
+	0%{transform:rotate(0deg);}
+	25%{transform:rotate(90deg);}
+	50%{transform:rotate(180deg);}
+	75%{transform:rotate(270deg);}
+	100%{transform:rotate(360deg);}
+}
+
